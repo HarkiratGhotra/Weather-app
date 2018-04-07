@@ -11,6 +11,9 @@ import { IonicStorageModule } from '@ionic/storage';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { WeatherProvider } from '../providers/weather/weather';
+import { MainPage } from '../pages/main/main';
+
+
 
 @NgModule({
   declarations: [
@@ -18,7 +21,8 @@ import { WeatherProvider } from '../providers/weather/weather';
     AboutPage,
     SettingsPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    MainPage
   ],
   imports: [
     BrowserModule,
@@ -32,7 +36,8 @@ import { WeatherProvider } from '../providers/weather/weather';
     AboutPage,
     SettingsPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    MainPage
   ],
   providers: [
     StatusBar,

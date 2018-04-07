@@ -21,7 +21,7 @@ export class SettingsPage {
   		if(val !=null) {
   			let location = JSON.parse(val);
   			this.city = location.city;
-  			ths.state = location.state;
+  			this.state = location.state;
   		}else{
   			this.city = 'Miami';
   			this.state ='FL';

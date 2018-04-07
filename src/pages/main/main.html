@@ -1,0 +1,32 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>main</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<ion-grid>
+	<ion-row>
+		<ion-col>
+			<form (ngSubmit)="login()">
+				<ion-list>
+					<ion-item>
+						<ion-label floating>Username</ion-label>
+						<ion-input type='text' #username></ion-input>
+					</ion-item>
+					<ion-item>
+						<ion-label floating>Password</ion-label>
+						<ion-input type='password' #password></ion-input>
+					</ion-item>
+					<button ion-button type="submit" block>Login</button>
+				</ion-list>
+			</form>
+		</ion-col>
+	</ion-row>
+</ion-grid>
+
+</ion-content>
